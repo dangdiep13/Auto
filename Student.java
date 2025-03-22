@@ -11,9 +11,9 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student student = new Student("Lily", "Dang", 6);
-        System.out.println("last name: " + student.lastName);
+        Student student = new Student("Dang", "Lily", 0);
         System.out.println("first name: " + student.firstName);
+        System.out.println("last name: " + student.lastName);
         System.out.println("diem so: " + student.score);
         if (student.score > 10 || student.score < 0) {
             System.out.println("Invalid Score!");
