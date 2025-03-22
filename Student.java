@@ -20,7 +20,7 @@ public class Student {
         } else if (student.score >= 5) {
             System.out.println("result: Passed");
         } else {
-            System.out.println("result: Failded");
+            System.out.println("result: Failed");
         }
     }
 }
